@@ -16,6 +16,8 @@
     "no-console": "off",
     "no-plusplus": "off",
     "no-use-before-define": "off",
-    "prefer-const": "off"
+    "prefer-const": "off",
+    "no-else-return": "off",
+    "no-param-reassign": "off"
   }
 }

@@ -1,5 +1,6 @@
 import './style.css';
 import { fibs, fibsRec } from './fibonacci';
 
-console.log(fibs(3));
-fibsRec();
+console.log(fibs(8));
+
+console.log(fibsRec(8));
