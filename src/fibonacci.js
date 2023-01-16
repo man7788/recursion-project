@@ -27,4 +27,8 @@ function fibsRec(n, i = 0, array = [0, 1]) {
   array.push(array[i] + array[i + 1]);
   return fibsRec(n, i + 1, array);
 }
+
+// console.log(fibs(8));
+
+// console.log(fibsRec(8));
 export { fibs, fibsRec };
